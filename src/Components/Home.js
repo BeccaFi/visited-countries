@@ -1,28 +1,22 @@
 
 import { useState, useEffect } from 'react';
+import useFetch from '../Hooks/useFetch';
 import BlogList from './BlogList';
 
 const Home = () => {
-    const [blogs, setBlogs] = useState([
-        {title: "My new website", body: "lorem ipsum...", author: "mario", id: 1},
-        {title: "Welcome party!", body: "lorem ipsum...", author: "yoshi", id: 2},
-        {title: "Web dev top tips", body: "lorem ipsum...", author: "mario", id: 3}
-    ]);
+    const { data } = useFetch('http://localhost:3002/blogs');
 
-    const [name, setName] = useState('mario');
+    // const handleDelete = (id) => {
+    //     const newBlogs = blogs.filter(blog => blog.id !== id); {/*Om id't INTE matchar är det false, för id't matchar ju. Och allt som blir false filtreras ut ur listan. Så då tas de bort i browsern. OBS! Måste läggas in i template som en prop: handleDelete={handleDelete} och kopplas som prop till sin template och knappen osv.*/}
+    //     setBlogs(newBlogs);
+    // }
 
-    const handleDelete = (id) => {
-        const newBlogs = blogs.filter(blog => blog.id !== id); {/*Om id't INTE matchar är det false, för id't matchar ju. Och allt som blir false filtreras ut ur listan. Så då tas de bort i browsern.*/}
-        setBlogs(newBlogs);
-    }
 
-    useEffect(() => {
-        console.log('useEffect ran')
-    }, []);
 
     return (
         <div className="home">
-            <BlogList blogs={blogs} title="All Blogs!" handleDelete={handleDelete} />
+
+            {data && <BlogList blogs={data} title="All Blogs!" />}
             {/*<BlogList blogs={blogs.filter((blog) => blog.author === 'mario')} title="Mario's blogs" /> */}
             </div>
     )
