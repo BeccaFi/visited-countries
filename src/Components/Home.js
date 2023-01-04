@@ -1,24 +1,23 @@
-
 import { useState, useEffect } from 'react';
 import useFetch from '../Hooks/useFetch';
-import BlogList from './BlogList';
+import CountryList from './CountryList';
+import Sort from '../Hooks/Sort';
+
 
 const Home = () => {
-    const { data } = useFetch('http://localhost:3002/blogs');
-
-    // const handleDelete = (id) => {
-    //     const newBlogs = blogs.filter(blog => blog.id !== id); {/*Om id't INTE matchar är det false, för id't matchar ju. Och allt som blir false filtreras ut ur listan. Så då tas de bort i browsern. OBS! Måste läggas in i template som en prop: handleDelete={handleDelete} och kopplas som prop till sin template och knappen osv.*/}
-    //     setBlogs(newBlogs);
-    // }
-
-
-
+    const { data } = useFetch('http://localhost:3002/countries');
+    const { sortedData } = Sort('http://localhost:3002/countries?_sort=rating&_order=desc');
+    
+  
+ 
     return (
+        
         <div className="home">
-
-            {data && <BlogList blogs={data} title="All Blogs!" />}
-            {/*<BlogList blogs={blogs.filter((blog) => blog.author === 'mario')} title="Mario's blogs" /> */}
-            </div>
+   
+        {data && <CountryList countries={ data } title="All Countries" />}
+            {/*{sortedData && <CountryList countries={ sortedData } />}*/}
+        {/*{data && <CountryList countries={ data.filter(country => country.continent === 'Europe') }/>}*/}
+        </div>
     )
 }
 
@@ -26,7 +25,49 @@ const Home = () => {
 export default Home;
 
 
+// <button onClick={allClick}>All countries</button>
+// <button onClick={sortClick}>Sorted by rating</button>
 
+// <div className='sort-filter'>
+//     <button>Sort by rating</button>
+//     <button>Filter by continent</button>
+//         <label>Sort by </label>
+//         <select>
+//             <option></option>
+//             <option>Name</option>
+//             <option>Capital</option>
+//             <option>Rating</option>
+//         </select>
+//         <label>Filter </label>
+//         <select>
+//             <option></option>
+//             <optgroup label='Continent'>
+//                 <option>Africa</option>
+//                 <option>Asia</option>
+//                 <option>Europe</option>
+//                 <option>Oceania</option>
+//                 <option>North America</option>
+//                 <option>South America</option>
+//             </optgroup>
+//         </select>
+//     </div>
+
+
+// const allClick = () => {
+//     return (
+//        <div>
+//      {data && <CountryList countries={ data } title="All Countries" />}
+//      </div>
+//     )
+// }
+
+// const sortClick = () => {
+//    return (
+//        <div>
+//        {sortedData && <CountryList countries={ sortedData } />}
+//        </div>
+//    )
+// }
 
 // ----- USE STATE -----
 // const Home = () => {

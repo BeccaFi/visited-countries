@@ -1,7 +1,7 @@
-import { useState, useEffect} from 'react';
+import { useEffect, useState } from "react";
 
-const useFetch = (url) => {
-    const [data, setData] = useState(null);
+const Sort = (url) => {
+    const [sortedData, setSortedData] = useState(null);
     // const [isPending, setIsPending] = useState(true);
     // const [error, setError] = useState(null);
 
@@ -10,13 +10,14 @@ const useFetch = (url) => {
             const res = await fetch(url);
             const data = await res.json();
 
-            setData(data);
+            setSortedData(data);
         }
             loadData();
     }, [url]);
 
     // return { data, isPending, error };
-    return { data };
+    return { sortedData };
 }
 
-export default useFetch;
+export default Sort;
+

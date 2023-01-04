@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+$standard: rgb(54, 101, 40);
+
 
 * {
     margin: 0;
@@ -10,16 +12,30 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    max-width: 600px;
+    max-width: 1200px;
     margin: 0 auto;
     border-bottom: 1px solid #f2f2f2;
 
     h1 {
-        color: #f1356d;
+        color: $standard;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 
     .links {
         margin-left: auto;
+
+        .new {
+            color: white;
+            background-color: $standard;
+            border-radius: 8px;
+
+            &:hover {
+                filter: brightness(130%);
+            }
+        }
     }
 
     a {
@@ -28,50 +44,209 @@
         padding: 6px;
 
         &:hover {
-            color: #f1356d;
+            color: $standard;
         }
     }
 }
 
+.sort-filter {
+    margin: 0px 2rem;
+
+    select {
+        margin-right: 20px;
+    }
+  }
 .content {
-    max-width: 600px;
+    max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
 }
 
 
+
 /* blog previews list */
-.blog-preview {
-    padding: 10px 16px;
-    margin: 20px 0;
-    border-bottom: 1px solid #fafafa;
+
+a {
+    text-decoration: none;
+}
+
+.country-list {
+    margin: 20px 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+
+
+}
+.country-preview {
+    padding: 8px 6px;
+    width: 200px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 8px;
+    
 
     &:hover {
         box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
         cursor: pointer;
     }
 
-    h2 {
-        font-size: 20px;
-        color: #f1356d;
-        margin-bottom: 8px;
+    .name-rate {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    
+
+        .rating {
+            margin-right: 0;
+        }
     }
 
-    a {
-        text-decoration: none;
+    .quick-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+
+
+    }
+
+    h2 {
+        font-size: 20px;
+        color: black;
+        margin-bottom: 4px;
+    }
+
+    button {
+        background: $standard;
+        color: #fff;
+        border: 0;
+        padding: 8px;
+        border-radius: 8px;
+        margin-top: 8px;
+        margin-bottom: 20px;
+        cursor: pointer;
+
+        &:hover {
+            filter: brightness(130%);
+        }
     }
 }
 
-.blog-details {
+.country-details {
+
+    display: flex;
+    flex-direction: row;
+
+    .top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 14px;
+        
+    }
+
+    .short-info {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 0px 30px;
+        border-left: 1px solid lightgray;
+        border-right: 1px solid lightgray;
+
+        h2 {
+            font-size: 20px;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .flex-info {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            p {
+                margin-bottom: 10px;
+            }
+
+            .question {
+                font-weight: bold;
+            }
+
+        }
+
+     
+
+       
+
+        button {
+            background: $standard;
+            color: #fff;
+            border: 0;
+            padding: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 5rem;
+    
+            &:hover{
+                filter: brightness(130%);
+            }
+        }
+    }
+
+    .all-info {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            margin-bottom: 20px;
+        }
+    }
+
+    
+
+  
+
+}
+
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
 
     h2 {
         font-size: 20px;
-        color: #f1356d;
-        margin-bottom: 10px;
+        color: black;
+        margin-bottom: 30px;
     }
 
-    div {
-        margin: 20px 0;
+    label {
+        text-align: left;
+        display: block;
     }
 
+    input, textarea, select {
+        width: 100%;
+        padding: 6px 0;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    button {
+        background: $standard;
+        color: #fff;
+        border: 0;
+        padding: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
 }

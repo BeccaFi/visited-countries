@@ -1,0 +1,164 @@
+{
+  "countries": [
+    {
+      "country": "Sweden",
+      "capital": "Stockholm",
+      "continent": "Europe",
+      "flag": "https://www.norden.org/sites/default/files/styles/content_size_800/public/images/Svensk%2520flag693684.jpeg?itok=o7gwHOSh",
+      "languages": "Swedish",
+      "population": "10,481,937",
+      "rating": "8",
+      "id": 1
+    },
+    {
+      "country": "Norway",
+      "capital": "Oslo",
+      "continent": "Europe",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/1024px-Flag_of_Norway.svg.png?20210507002815",
+      "languages": "Norwegian",
+      "population": "5,425,270",
+      "rating": "-",
+      "id": 2
+    },
+    {
+      "country": "Denmark",
+      "capital": "Copenhagen",
+      "continent": "Europe",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1920px-Flag_of_Denmark.svg.png",
+      "languages": "Danish",
+      "population": "5,928,364",
+      "rating": "-",
+      "id": 3
+    },
+    {
+      "country": "Finland",
+      "capital": "Helsinki",
+      "continent": "Europe",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/2560px-Flag_of_Finland.svg.png",
+      "languages": "Finnish",
+      "population": "5,553,000",
+      "rating": "5",
+      "id": 4
+    },
+    {
+      "country": "Germany",
+      "capital": "Berlin",
+      "continent": "Europe",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png",
+      "languages": "German",
+      "population": "83,695,430",
+      "rating": "8",
+      "id": 5
+    },
+    {
+      "country": "United Kingdom",
+      "capital": "London",
+      "continent": "Europe",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/800px-Flag_of_the_United_Kingdom.svg.png",
+      "languages": "English",
+      "population": "67,791,400",
+      "rating": "7",
+      "id": 6
+    },
+    {
+      "country": "France",
+      "capital": "Paris",
+      "continent": "Europe",
+      "flag": "https://i.pinimg.com/originals/68/59/c4/6859c42dbbf0d0dc18a080b5580d9766.png",
+      "languages": "French",
+      "population": "7,897,000",
+      "rating": "7",
+      "id": 7
+    },
+    {
+      "country": "Poland",
+      "capital": "Warsaw",
+      "continent": "Europe",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1200px-Flag_of_Poland.svg.png",
+      "languages": "Polish",
+      "population": "38,036,118",
+      "rating": "7",
+      "id": 8
+    },
+    {
+      "country": "Crete (Greece)",
+      "capital": "Heraklion",
+      "continent": "Europe",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Cretan_State.svg/1200px-Flag_of_Cretan_State.svg.png",
+      "languages": "Greek",
+      "population": "617,360",
+      "rating": "5",
+      "id": 9
+    },
+    {
+      "country": "Latvia",
+      "capital": "Riga",
+      "continent": "Europe",
+      "flag": "https://cdn.shopify.com/s/files/1/1082/1624/products/Flag_of_Latvia.jpg?v=1601570653",
+      "languages": "Latvian",
+      "population": "1,842,226",
+      "rating": "7",
+      "id": 10
+    },
+    {
+      "country": "Lithuania",
+      "capital": "Vilnius",
+      "continent": "Europe",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/640px-Flag_of_Lithuania.svg.png",
+      "languages": "Lithuanian",
+      "population": "2,840,758",
+      "rating": "-",
+      "id": 11
+    },
+    {
+      "country": "Azerbaijan",
+      "capital": "Baku",
+      "continent": "Asia",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg",
+      "languages": "Azerbaijani",
+      "population": "10,353,296",
+      "rating": "7",
+      "id": 12
+    },
+    {
+      "country": "Georgia",
+      "capital": "Tbilisi",
+      "continent": "Asia",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/1920px-Flag_of_Georgia.svg.png",
+      "languages": "Georgian",
+      "population": "4,012,104",
+      "rating": "7",
+      "id": 13
+    },
+    {
+      "country": "Armenia",
+      "capital": "Yerevan",
+      "continent": "Asia",
+      "flag": "https://cdn.britannica.com/11/4711-004-1504C169/Flag-Armenia.jpg",
+      "languages": "Armenian",
+      "population": "3,000,756",
+      "rating": "8",
+      "id": 14
+    },
+    {
+      "country": "Japan",
+      "capital": "Tokyo",
+      "continent": "Asia",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png",
+      "languages": "Japanese",
+      "population": "124,214,766",
+      "rating": "9",
+      "id": 15
+    },
+    {
+      "country": "South Korea",
+      "capital": "Seoul",
+      "continent": "Asia",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1920px-Flag_of_South_Korea.svg.png",
+      "languages": "Korean",
+      "population": "51,844,834",
+      "rating": "7",
+      "id": 16
+    }
+  ]
+}
