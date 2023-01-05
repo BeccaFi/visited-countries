@@ -3,11 +3,7 @@ import Star from '../images/star.png';
 
 
 const CountryList = ({ countries, country }) => {
-    // const countries = props.countries;
-    // const title = props.title;
-
    
-
     return (
       <div className="country-list">
       {countries.map((country) => (

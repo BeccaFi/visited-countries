@@ -19,6 +19,7 @@ const CountryDetails = () => {
     return (
         <div className="country-details">
             { data && (
+                <>
                 <div className="short-info">
                     <img src={ data.flag } height="200px" width="300px"/>
                     <div className="top">
@@ -41,7 +42,14 @@ const CountryDetails = () => {
                     </div>
                         <button onClick={handleClick}>Delete</button>
                 </div>
+                <div className="all-info">
+                <h1>DETAILS</h1>
+                <p>{ data.comment }</p>
+                </div>
+                </>
             ) }
+
+            
 
         </div>
     );

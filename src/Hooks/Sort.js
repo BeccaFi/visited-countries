@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 
 const Sort = (url) => {
     const [sortedData, setSortedData] = useState(null);
-    // const [isPending, setIsPending] = useState(true);
-    // const [error, setError] = useState(null);
 
     useEffect(() => {
         async function loadData() {
@@ -15,9 +13,25 @@ const Sort = (url) => {
             loadData();
     }, [url]);
 
-    // return { data, isPending, error };
     return { sortedData };
 }
 
-export default Sort;
 
+
+const SortReverse = (url) => {
+    const [sortedDataR, setSortedDataR] = useState(null);
+
+    useEffect(() => {
+        async function loadData() {
+            const res = await fetch(url);
+            const data = await res.json();
+
+            setSortedDataR(data);
+        }
+            loadData();
+    }, [url]);
+
+    return { sortedDataR };
+}
+
+export {Sort, SortReverse};

@@ -8,6 +8,7 @@
       "languages": "Swedish",
       "population": "10,481,937",
       "rating": "8",
+      "comment": "Jaja jag bor här",
       "id": 1
     },
     {
@@ -18,6 +19,7 @@
       "languages": "Norwegian",
       "population": "5,425,270",
       "rating": "-",
+      "comment": "Lorem ipsum...",
       "id": 2
     },
     {
@@ -28,6 +30,7 @@
       "languages": "Danish",
       "population": "5,928,364",
       "rating": "-",
+      "comment": "Lorem ipsum...",
       "id": 3
     },
     {
@@ -38,6 +41,7 @@
       "languages": "Finnish",
       "population": "5,553,000",
       "rating": "5",
+      "comment": "Lorem ipsum...",
       "id": 4
     },
     {
@@ -48,6 +52,7 @@
       "languages": "German",
       "population": "83,695,430",
       "rating": "8",
+      "comment": "Lorem ipsum...",
       "id": 5
     },
     {
@@ -58,6 +63,7 @@
       "languages": "English",
       "population": "67,791,400",
       "rating": "7",
+      "comment": "Lorem ipsum...",
       "id": 6
     },
     {
@@ -68,6 +74,7 @@
       "languages": "French",
       "population": "7,897,000",
       "rating": "7",
+      "comment": "Lorem ipsum...",
       "id": 7
     },
     {
@@ -78,6 +85,7 @@
       "languages": "Polish",
       "population": "38,036,118",
       "rating": "7",
+      "comment": "Lorem ipsum...",
       "id": 8
     },
     {
@@ -88,6 +96,7 @@
       "languages": "Greek",
       "population": "617,360",
       "rating": "5",
+      "comment": "Lorem ipsum...",
       "id": 9
     },
     {
@@ -98,6 +107,7 @@
       "languages": "Latvian",
       "population": "1,842,226",
       "rating": "7",
+      "comment": "Lorem ipsum...",
       "id": 10
     },
     {
@@ -108,6 +118,7 @@
       "languages": "Lithuanian",
       "population": "2,840,758",
       "rating": "-",
+      "comment": "Lorem ipsum...",
       "id": 11
     },
     {
@@ -118,6 +129,7 @@
       "languages": "Azerbaijani",
       "population": "10,353,296",
       "rating": "7",
+      "comment": "Lorem ipsum...",
       "id": 12
     },
     {
@@ -128,6 +140,7 @@
       "languages": "Georgian",
       "population": "4,012,104",
       "rating": "7",
+      "comment": "Lorem ipsum...",
       "id": 13
     },
     {
@@ -138,6 +151,7 @@
       "languages": "Armenian",
       "population": "3,000,756",
       "rating": "8",
+      "comment": "Lorem ipsum...",
       "id": 14
     },
     {
@@ -148,6 +162,7 @@
       "languages": "Japanese",
       "population": "124,214,766",
       "rating": "9",
+      "comment": "❤️❤️❤️",
       "id": 15
     },
     {
@@ -158,6 +173,7 @@
       "languages": "Korean",
       "population": "51,844,834",
       "rating": "7",
+      "comment": "Lorem ipsum...",
       "id": 16
     }
   ]

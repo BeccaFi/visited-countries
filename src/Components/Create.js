@@ -9,20 +9,19 @@ const Create = () => {
     const [population, setPopulation] = useState('');
     const [rating, setRating] = useState('');
     const [continent, setContinent] = useState('');
-    {/*const [author, setAuthor] = useState('Mario');*/}
-const [isPending, setIsPending] = useState(false);
+    const [comment, setComment] = useState('');
+    const [isPending, setIsPending] = useState(false);
     const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // const newBlog = { title, body, author };
 
         setIsPending(true);
 
         fetch('http://localhost:3002/countries', {
             method: 'POST',
             headers: { "Content-Type": "application/json"},
-            body: JSON.stringify({ country, capital , continent, flag, languages, population, rating })
+            body: JSON.stringify({ country, capital , continent, flag, languages, population, rating, comment })
         }).then(() => {
             setIsPending(false);
             navigate('/')
@@ -87,19 +86,18 @@ const [isPending, setIsPending] = useState(false);
                     value={rating}
                     onChange={(e) => setRating(e.target.value)}
                     />
-                {/*<label>Blog author: </label>
-                <select
-                    value={author}
-                    onChange={(e) => setAuthor(e.target.value)}>
-                    <option value="Mario">Mario</option>
-                    <option value="Yoshi">Yoshi</option>
-                </select>*/}
+                    <label>Comment: </label>
+                    <textarea
+                        type="text"
+                        required
+                        placeholder="Details?"
+                        value={comment}
+                        onChange={(e) => setComment(e.target.value)}
+                        />
                 {!isPending && <button>Add country</button>}
                 {isPending && <button disabled>Adding country...</button>}
             </form>
-            <p>{ country }</p>
-            <p>{ capital }</p>
-            {/*<p>Written by: { author }</p>*/}
+            
         </div>
     );
 }
