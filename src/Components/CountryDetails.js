@@ -44,7 +44,16 @@ const CountryDetails = () => {
                 </div>
                 <div className="all-info">
                 <h1>DETAILS</h1>
-                <p>{ data.comment }</p>
+                <p id="comment">{ data.comment }</p>
+                <div className="attractions">
+                <h2>Top attractions</h2>
+                <ul>
+                {data.attractions.map((attraction, index) => {
+                    return (
+                        <li>{attraction}</li>
+                )})}
+                </ul>
+                </div>
                 </div>
                 </>
             ) }

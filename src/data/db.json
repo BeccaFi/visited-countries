@@ -8,7 +8,8 @@
       "languages": "Swedish",
       "population": "10,481,937",
       "rating": "8",
-      "comment": "Jaja jag bor här",
+      "comment": "I mean I live here...",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 1
     },
     {
@@ -19,7 +20,8 @@
       "languages": "Norwegian",
       "population": "5,425,270",
       "rating": "-",
-      "comment": "Lorem ipsum...",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 2
     },
     {
@@ -30,7 +32,8 @@
       "languages": "Danish",
       "population": "5,928,364",
       "rating": "-",
-      "comment": "Lorem ipsum...",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 3
     },
     {
@@ -41,7 +44,8 @@
       "languages": "Finnish",
       "population": "5,553,000",
       "rating": "5",
-      "comment": "Lorem ipsum...",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 4
     },
     {
@@ -52,7 +56,8 @@
       "languages": "German",
       "population": "83,695,430",
       "rating": "8",
-      "comment": "Lorem ipsum...",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 5
     },
     {
@@ -64,6 +69,7 @@
       "population": "67,791,400",
       "rating": "7",
       "comment": "Lorem ipsum...",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 6
     },
     {
@@ -75,6 +81,7 @@
       "population": "7,897,000",
       "rating": "7",
       "comment": "Lorem ipsum...",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 7
     },
     {
@@ -86,6 +93,7 @@
       "population": "38,036,118",
       "rating": "7",
       "comment": "Lorem ipsum...",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 8
     },
     {
@@ -97,17 +105,19 @@
       "population": "617,360",
       "rating": "5",
       "comment": "Lorem ipsum...",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 9
     },
     {
       "country": "Latvia",
       "capital": "Riga",
       "continent": "Europe",
-      "flag": "https://cdn.shopify.com/s/files/1/1082/1624/products/Flag_of_Latvia.jpg?v=1601570653",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Latvia.svg",
       "languages": "Latvian",
       "population": "1,842,226",
       "rating": "7",
       "comment": "Lorem ipsum...",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 10
     },
     {
@@ -119,6 +129,7 @@
       "population": "2,840,758",
       "rating": "-",
       "comment": "Lorem ipsum...",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 11
     },
     {
@@ -130,6 +141,7 @@
       "population": "10,353,296",
       "rating": "7",
       "comment": "Lorem ipsum...",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 12
     },
     {
@@ -141,6 +153,7 @@
       "population": "4,012,104",
       "rating": "7",
       "comment": "Lorem ipsum...",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 13
     },
     {
@@ -152,6 +165,7 @@
       "population": "3,000,756",
       "rating": "8",
       "comment": "Lorem ipsum...",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 14
     },
     {
@@ -163,6 +177,7 @@
       "population": "124,214,766",
       "rating": "9",
       "comment": "❤️❤️❤️",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 15
     },
     {
@@ -174,6 +189,7 @@
       "population": "51,844,834",
       "rating": "7",
       "comment": "Lorem ipsum...",
+      "attractions": ["Attraction1", "Attraction2", "Attraction3"],
       "id": 16
     }
   ]
